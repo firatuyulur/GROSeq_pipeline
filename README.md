@@ -9,7 +9,7 @@ As GROSeq readlength I used was <70, I used aln + samse in bwa rather than bwa m
 
 `bwa aln hg19.fa GroSeq_rep1.fastq.gz > GroSeq_rep1.sai` 
 
-`bwa samse -f GroSeq_rep1.sam hg19.fa GroSeq_rep1.sai GroSeq_rep1.fastq.gz`
+``bwa samse -f GroSeq_rep1.sam hg19.fa GroSeq_rep1.sai GroSeq_rep1.fastq.gz``
 
 If your readlength is above 70 bps, bwa mem will be a better option.
 
