@@ -21,6 +21,10 @@ For sam to bam conversion, I used samtools view
 
 `samtools view -bS GroSeq_rep1.sam > GroSeq_rep1.bam`
 
+For mapping quality threshold, you can check samtools view options. Say you want your threshold to be >= 10, then you add a q parameter as 
+
+`samtools view -bSq 10 GroSeq_rep1.sam > GroSeq_rep1.bam`
+
 and sort with
 
 `samtools sort GroSeq_rep1.bam > sorted_GroSeq_rep1.bam`
