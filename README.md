@@ -13,7 +13,7 @@ As GROSeq readlength I used was <70, I used aln + samse in bwa rather than bwa m
 
 If your readlength is above 70 bps, bwa mem will be a better option.
 
-`bwa mem hg19.fa ABC.fastq.gz > ABC_hg19aligned.sam
+`bwa mem hg19.fa ABC.fastq.gz > ABC_hg19aligned.sam`
 
 The rest will be the same.
 
