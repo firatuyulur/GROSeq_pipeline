@@ -37,7 +37,7 @@ Also a bed12 format is well-used for this case;
 
 `bedtools bamtobed -bed12 -i sorted_data1.bam > sorted_data1.bed`
 
-Next step is generating the bedGraph files. For this purpose there are multiple options. HOMER or bedtools genomecov are good options.  will be used. Before using genomecov, it advises a sorting as in the following;
+Next step is generating the bedGraph files. For this purpose there are multiple options. HOMER or bedtools genomecov are good options. Here, bedtools will be used. Before using genomecov, it advises a sorting as in the following;
 
 `sort -k 1,1 sorted_data1.bed > re_sorted_data1.bed`
 
